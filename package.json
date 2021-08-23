@@ -1,16 +1,20 @@
 {
   "name": "jsnpm",
   "version": "1.0.0",
-  "description": "construir paquete para node",
-  "main": "src/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "javascript",
-    "node",
-    "package"
-  ],
-  "author": "aaxlss",
-  "license": "MIT"
+  "keywords": [],
+  "author": "aaxlss <aaxlss@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "json-server": "^0.15.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.23.0"
+  }
 }
